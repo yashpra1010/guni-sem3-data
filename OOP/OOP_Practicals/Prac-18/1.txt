@@ -1,7 +1,3 @@
-
-Yash
-Your Initial is: Y
-Jinay
-
-yash
-jinay
+version https://git-lfs.github.com/spec/v1
+oid sha256:d99c5828d8401ad9b492e736eed62f47263efbffc3e810d77a980ead2d4e9644
+size 50

@@ -1,24 +1,3 @@
-#include<stdio.h>
-void reversearray(int prajapati[],int a)
-{
-	int i=0;
-	printf("\nOUTPUT:\n");
-	for(i=a-1;i>=0;i--)
-	{
-		printf("%d ", prajapati[i]);
-	}
-}
-int main()
-{
-	printf("Name: Prajapati Yash P.\nBranch: BDA\nEnrollment No: 20162121023\n");
-	int n,i;
-	printf("\nEnter size of array: ");
-	scanf("%d",&n);
-	int yash[n];
-	printf("Enter elements of array:\n");
-	for(i=0;i<n;i++)
-	{
-		scanf("%d",&yash[i]);
-	}
-	reversearray(yash,n);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9aa4733e471160391c7bbde7a11074c0eac211f0a33fca7c1288b5413c5db7a7
+size 458

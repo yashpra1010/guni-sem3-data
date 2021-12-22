@@ -1,9 +1,3 @@
-{
-	"C_Cpp.errorSquiggles": "Disabled",
-	"files.associations": {
-		"*.C": "c",
-		"random": "cpp",
-		"ostream": "cpp",
-		"iostream": "cpp"
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:19cc4ea3d10f94ab3f37175d78e3e858f3bd658cb616aeae03ebe42d3ddc7fa2
+size 149

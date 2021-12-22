@@ -1,17 +1,3 @@
-import java.io.*;
-import java.util.*;
-
-public class file_write {
-	public static void main(String[] args) throws Exception {
-		FileWriter fw = new FileWriter("a.txt");
-		Scanner sc=new Scanner(System.in);
-		String yash;
-		System.out.println("\nEnter string to insert: ");
-		yash=sc.nextLine();
-
-		fw.write("Hello\n");
-		fw.write(yash);
-		sc.close();
-		fw.close();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b13e68bb4154b06455744def2ed8a6f742f255c7b884fdff57a000335e6cf8d
+size 383

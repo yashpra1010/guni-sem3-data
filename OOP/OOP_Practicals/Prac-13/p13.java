@@ -1,31 +1,3 @@
-interface Animals
-{
-    void Speak();
-}
-
-interface Paws 
-{
-    void NoOfLegs();
-}
-
-class Dog implements Animals,Paws
-{
-    public void Speak()
-    {
-        System.out.println("Dog Barks");
-    }
-    public void NoOfLegs()
-    {
-        System.out.println("They have 4 legs");
-    }
-}
-
-public class p13 
-{
-    public static void main(String[] args) 
-    {
-        Dog obj=new Dog();
-        obj.Speak();
-        obj.NoOfLegs();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bca343cb2d083e3690870dd36b386cf46932874aafe3a9ed3f13bf03e4d7e550
+size 465

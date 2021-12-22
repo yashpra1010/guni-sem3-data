@@ -1,19 +1,3 @@
-import java.io.*;
-
-public class Calc
-{
-	public static void main(String[] args)
-	{
-		double a=3,b=4,c=2;
-		double calc,area,harea,s;
-		
-		calc=a*((1+(b/4))+(c*5));
-		area=(a*b)/2;
-		s=(a+b+c)/2;
-		harea=Math.sqrt(s*(s-a)*(s-b)*(s-c));
-		
-		System.out.println("\nAnswer: "+calc+"\n");
-		System.out.println("\nArea of Triangle: "+area+"\n");
-		System.out.println("\nArea of Triangle using heron's formula: "+harea+"\n");
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0458b17f734beb07374078f41b0b1c57ce3784bc5d2f823ae9aa77bee660bbfa
+size 440

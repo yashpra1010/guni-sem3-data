@@ -1,8 +1,3 @@
-{
-    "java.project.sourcePaths": ["src"],
-	"java.project.outputPath": "bin",
-	"java.project.referencedLibraries": [
-		"lib/**/*.jar",
-		"c:\\Users\\admin\\Google Drive\\B-Tech\\guni-sem3-data\\SEM-3\\OOP\\Software\\mysql-connector-java-5.1.23-bin.jar"
-	]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd050fac977537308c9ef8d4515fff4392473a7a16ece3282fb84fb5c3051af6
+size 266

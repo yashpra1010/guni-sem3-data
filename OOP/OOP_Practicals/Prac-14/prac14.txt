@@ -1,6 +1,3 @@
-A library management software is to be designed to ease the fetching of books based on their title present
-within the library. Implement complete abstraction through interface and
-abstract class:
-i. Abstract class Book to assign a title through parameters
-ii. Interface TitleBook to fetch a title
-iii. MyBook to override the abstract functions
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ee23e54e7125f376f0eb1aed08946fd6e4a39b799cd1448add6a35b311b76a4
+size 348

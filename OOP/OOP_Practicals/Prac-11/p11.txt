@@ -1,14 +1,3 @@
-Karan wants to opt for a student
-loan to pursue further +2 years of education abroad. Implement a java program
-which surveys various banks for their rate of interest, and display the
-returned ROI’s through hierarchical inheritance. Consider the ROI of banks are
-as follows:
-
-
-SBI           6.9%
-
-
-HDFC      7.1%
-
-
-BOI          6.5%
+version https://git-lfs.github.com/spec/v1
+oid sha256:19a17e156350ebec9589fd24cd966bc256e53c56d8595e4134dae2096526eedd
+size 346

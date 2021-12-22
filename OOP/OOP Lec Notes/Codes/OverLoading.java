@@ -1,21 +1,3 @@
-public class OverLoading {
-	void f(int a)
-	{
-		System.out.println("int");
-	}
-
-	void f(float a)
-	{
-		System.out.println("float");
-	}
-	void f(double a)
-	{
-		System.out.println("double");
-	}
-	public static void main(String[] args) {
-		OverLoading obj=new OverLoading();
-		obj.f(10);
-		obj.f(10.36f);
-		obj.f(10.3);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9369359a2bdf54418f98c6edf8b6159b621772588b92ac1027e53d79592ad6af
+size 338

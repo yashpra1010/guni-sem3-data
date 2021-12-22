@@ -1,4 +1,3 @@
-Akansha was assigned a task to develop an area calculator with implementation of lambda expression and few specific requirements by the client which are as follows:
-Develop a functional interface to calculate the area of a circle and rectangle.
-Develop a normal interface and implement it to take the user input of radius, length and breadth.
-Display the area of both the shapes.
+version https://git-lfs.github.com/spec/v1
+oid sha256:721a464ba1ce81f2d91732e3c3e340edb597e0a06769a347ff599fc33872761a
+size 384

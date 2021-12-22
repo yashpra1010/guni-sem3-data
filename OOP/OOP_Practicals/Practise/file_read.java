@@ -1,14 +1,3 @@
-import java.io.*;
-
-public class file_read{
-	public static void main(String[] args) throws Exception {
-	FileReader fr=new FileReader("file1.txt");
-
-	int i;
-	while((i=fr.read())!=-1)
-	{
-		System.out.println((char)i);
-	}
-	fr.close();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d512e63ce8533a1cdac395e7340994e18f0e4b957d4db86290af7773e31050e
+size 248

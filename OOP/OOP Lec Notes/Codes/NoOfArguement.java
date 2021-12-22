@@ -1,19 +1,3 @@
-public class NoOfArguement
-{
-	void add(int a, int b)
-	{
-		int c=a+b;
-		System.out.println("Sum: "+c);
-	}
-
-	void add(int a, int b, int c)
-	{
-		int d=a+b+c;
-		System.out.println("Sum: "+d);
-	}
-	public static void main(String[] args) {
-		NoOfArguement obj=new NoOfArguement();
-		obj.add(23, 17);
-		obj.add(36, 4, 10);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:19531c3fd869db75fc4adc066f63abcbcfcc56fc97501a047f57a08c22b71a20
+size 339

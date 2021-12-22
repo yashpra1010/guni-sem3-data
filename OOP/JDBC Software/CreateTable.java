@@ -1,30 +1,3 @@
-
-package databasehandling;
-
-import java.sql.*;
-
-public class CreateTable {
-public static void main(String args[])
-{
-     try{
-	 Class.forName("com.mysql.jdbc.Driver"); //driver 
-			
-	 String driverUrl = "jdbc:mysql://localhost:3306/demo";
-			
-	 Connection con = DriverManager.getConnection(driverUrl,"root","ganpat"); //connection
-			
-         String createTableQuery ="CREATE table GanpatStudent( "
-					+ "id INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT , "
-					+ "name VARCHAR(30) ,"
-					+ "enrollmentNo VARCHAR(12))";
-			
-			
-	 PreparedStatement CreateTable=con.prepareStatement(createTableQuery); //prepared statement for create table
-			
-	 CreateTable.execute(); //execute create table query
-       }		
-       catch(Exception e){
-	 System.out.println(e);
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e41ed662ccc2b26b68a23c757888a36574ed07f3c8b0f50538776c44023ca1ed
+size 804

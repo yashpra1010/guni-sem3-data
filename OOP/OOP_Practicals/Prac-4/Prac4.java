@@ -1,23 +1,3 @@
-import java.util.*;
-public class Prac4
-{
-public void login(){
-System.out.println("Enter Username: ");
-Scanner yash = new Scanner(System.in);
-String username=yash.next();
-System.out.println("Enter Password: ");
-String Password=yash.next();
-if(username.equals("Ganpat") && Password.equals("ICT"))
-{
-System.out.println("Welcome "+username);
-}
-else
-{
-System.out.println("Failed To Login!!!");
-}
-}
-public static void main(String[] args)
-{
-Prac4 obj = new Prac4();
-obj.login();
-}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:072d181344405cb91afea2080b072528fcf3bf83effe597d5563de1b19527638
+size 496

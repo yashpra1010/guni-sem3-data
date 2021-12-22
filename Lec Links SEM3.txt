@@ -1,5 +1,3 @@
-https://guni.webex.com/meet/ICT3A
-
-https://guni.webex.com/meet/ICT33
-
-https://bit.ly/GanpatOOPS
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6786bb7d11d06f562a1b0bde9c9df20d5940d4d3609d1f9f4f88c655e146c2d
+size 99

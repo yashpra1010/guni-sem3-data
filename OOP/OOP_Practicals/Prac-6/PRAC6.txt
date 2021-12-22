@@ -1,1 +1,3 @@
-A bank management system is being developed which requires taking input of the customer id, customer name of a specific bank. Consider the bank name and account balance as a static variable through Java implementation and display the values. 
+version https://git-lfs.github.com/spec/v1
+oid sha256:89d07ee47931daf9bfdbaaba2375f8706fd8004f577ed46f2d89960a45859897
+size 242

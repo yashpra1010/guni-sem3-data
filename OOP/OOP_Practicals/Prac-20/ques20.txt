@@ -1,3 +1,3 @@
-Anne was assigned to develop a text editor module which helps calculate the count of characters, words, lines, digits, white spaces and other characters in a given file.
-Input format: File with some alphanumeric contents, whitespaces and other symbols
-Output format: Count of characters, lines, characters, numbers, spaces and symbols if any.
+version https://git-lfs.github.com/spec/v1
+oid sha256:931ee221ad4e4ca36d1610cd6d1369a4924704c9e4c010011e2cf7f8d6036b8e
+size 344

@@ -1,7 +1,3 @@
-{
-	"files.associations": {
-		"*.C": "c",
-		"cctype": "c",
-		"charconv": "c"
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a64064a65c9dc0f6bb3ac00cee524007f7a057cae54cb5175d1ed9faeadc1068
+size 86

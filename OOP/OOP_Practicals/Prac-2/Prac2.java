@@ -1,12 +1,3 @@
-import java.io.*;
-
-public class Prac2
-{
-	public static void main(String[] args)
-	{
-		float a=1.0f,b=2.0f,c=3.0f;
-		float calc;
-		calc=b*(1-(c/3)+(a/5)-(b/14)+(a/12)-(b/22));
-		System.out.println("\nAnswer: "+calc+"\n");
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:05d1ed90ae8b638d93edfe085ec6717f5544ea4b4296505f1d8c628a0815e222
+size 235

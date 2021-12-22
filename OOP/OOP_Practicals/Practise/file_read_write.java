@@ -1,19 +1,3 @@
-import java.io.*;
-
-public class file_read_write {
-	public static void main(String[] args) throws Exception {
-		FileReader fr = new FileReader("1.txt");
-		FileWriter fw = new FileWriter("2.txt");
-
-		int i;
-		char ch;
-		while ((i = fr.read()) != -1) {
-			System.out.println((char) i);
-			ch=(char)i;
-			fw.write(ch);
-		}
-
-		fr.close();
-		fw.close();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bef5e32c6ac9c205ff3964af08d67da6638c66f7f6bd6cb68a20bfb5197ae561
+size 372

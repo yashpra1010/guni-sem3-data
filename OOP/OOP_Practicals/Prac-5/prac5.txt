@@ -1,1 +1,3 @@
-A company received a project to develop an employee management system. Neha was assigned to develop a module of taking the user input of employee details such as name, age and salary. Design a program to accept input type in string, integer and double datatype respectively and display the details of the employee.
+version https://git-lfs.github.com/spec/v1
+oid sha256:85d1e227e52562e85c815ab29ba3eab999ca57d727540c0ff2ab395a02850447
+size 314

@@ -1,29 +1,3 @@
-class Hours
-{
-	int getHours()
-	{
-		System.out.println("\nHello");
-		return 0;
-	}
-}
-class Mins
-{
-	int getMins()
-	{
-		System.out.println("\nHello");
-		return 0;
-	}
-}
-class Secs
-{
-	int getSecs()
-	{
-		System.out.println("\nHello");
-		return 0;
-	}
-}
-public class HourMinSec {
-	public static void main(String[] args) {
-		
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:456446f66ffbca107d35ab0acbcf6368576158631e19c42c4248f47ac4978d63
+size 350

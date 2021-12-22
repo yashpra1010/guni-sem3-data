@@ -1,19 +1,3 @@
-import java.util.*;
-
-public class OOPA1Q1 {
-	public static void main(String[] args) {
-		Scanner yash = new Scanner(System.in);
-		int Z, i, ans;
-		System.out.print("\nEnter element whose first 10 multiple you want to find(5<Z<41): ");
-		Z = yash.nextInt();
-		if (Z > 5 && Z < 41) {
-			for (i = 1; i < 11; i++) {
-				ans = Z * i;
-				System.out.println(Z + "x" + i + "=" + ans);
-			}
-		} else {
-			System.out.println("Entered element does not satsify the given condition.");
-		}
-
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5b9fac02e036194786379afb156bd0088b5f21b94f6af5b5f8b1cae4e7db542
+size 500

@@ -1,1 +1,3 @@
-Zahir wants to fill an online admission for of a college, but requires the details of college such as college name and it’s id. Implement a java based program to fetch the details and display them through single inheritance.
+version https://git-lfs.github.com/spec/v1
+oid sha256:b92e5e9a9ced7b822d38149ef92d44efa341269c1b6c4c5bf1e01d7de8b64703
+size 226

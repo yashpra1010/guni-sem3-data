@@ -1,18 +1,3 @@
-public class ChangeTheSequence {
-	void add(int a, double b)
-	{
-		double c=a+b;
-		System.out.println("Sum: "+c);
-	}
-
-	void add(double a, int b)
-	{
-		double d=a+b;
-		System.out.println("Sum: "+d);
-	}
-	public static void main(String[] args) {
-		ChangeTheSequence obj=new ChangeTheSequence();
-		obj.add(3, 1.46);
-		obj.add(1.6, 2);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8882ed93eda94d39e52ef19ebd82b1d9c14857ae76633ffe3184ac6ee6497860
+size 351

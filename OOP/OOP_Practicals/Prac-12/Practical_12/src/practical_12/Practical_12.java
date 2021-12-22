@@ -1,32 +1,3 @@
-package practical_12;
-
-abstract class Vehicle
-{
-    abstract String getspeed();
-}
-
-class TwoWheeler extends Vehicle
-{
-    String getspeed()
-    {
-        return "Speed Of Two Wheeler Is 90 km/hr";
-    }
-}
-
-class FourWheeler extends Vehicle
-{
-    String getspeed() 
-    {
-        return "Speed Of Four Wheeler Is 180 km/hr";
-    }
-}
-public class Practical_12 {
-
-    public static void main(String[] args) {
-        Vehicle yash = new TwoWheeler();
-        System.out.println(yash.getspeed());
-        Vehicle obj = new FourWheeler();
-        System.out.println(obj.getspeed());
-    }
-    
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c60bac2c03946458b865824bd0366102b5b143e601bc08e7b48b28ff4c786665
+size 622

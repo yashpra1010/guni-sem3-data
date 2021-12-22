@@ -1,25 +1,3 @@
-import java.util.*;
-public class ArraySearch {
-    public static void main(String[] args) {
-		//System.out.println("Enter number to search in array: ");
-		//Scanner yash=new Scanner(System.in);
-		//int search=yash.nextInt();
-		int arr1[]={1456,2,4,6,7,9};
-		int num1=1456;
-		int num2=2444;
-		int i;
-        for (i = 0; i < 6; i++) 
-		{
-            if (num1 == arr1[i]) 
-			{
-                System.out.println("Array contains "+num1+": true");
-            }
-			if(num2!=arr1[i])
-			{
-				System.out.println("Array contains "+num2+": false");
-				break;
-			}
-        }
-		
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec1d721e36fad7720cc5c37711ee63e64357605f628d7f5d8fed62b163cd2b14
+size 602

@@ -1,18 +1,3 @@
-void TowerOfHanoi(int n,char A,char B,char C)
-{
-	if(n>0) 
-	{
-		TowerOfHanoi(n-1,A,C,B);
-		printf("\nTop disk moved from %c to %c",A,B);
-		TowerOfHanoi(n-1,C,B,A);
-	}
-}
-
-------------------------------------------------------------------------------------------
-n=3
------------------------------------------------------------------------------------------
-TOH(2,A,C,B)
-TOH(1,A,B,C) -->PRINT A TO B
-TOH(2,A,C,B) ---> PRINT A TO C
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b56485c83ff4f0bb88101f44a97515d56c0549410679509c06a3bd059bb3f3d
+size 447

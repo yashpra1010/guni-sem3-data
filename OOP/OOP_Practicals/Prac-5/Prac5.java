@@ -1,25 +1,3 @@
-import java.io.*;
-import java.util.*;
-public class Prac5{
-	public void getInput()
-	{
-		Scanner Yash = new Scanner(System.in);
-		System.out.println("\n-----| EMPLOYEE MANAGEMENT SYSTEM |-----");
-		System.out.println("\nEnter Employee name: ");
-		String s = Yash.next();
-		System.out.println("\nEnter Employee age: ");
-		int i = Yash.nextInt();
-		System.out.println("\nEnter Employee Salary: ");
-		float f = Yash.nextFloat();
-		
-		System.out.println("\n-----| OUTPUT |-----");
-		System.out.println("Employee name: "+s);
-		System.out.println("Age: "+i);
-		System.out.println("Salary: "+f);
-	}
-	public static void main(String[] args) 
-	{
-		Prac5 obj=new Prac5();
-		obj.getInput();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:537e7ef233fecc9ceebf8022d4d9123c21b4b1ce5cf9a2a9904e6b13eb5cda07
+size 705
