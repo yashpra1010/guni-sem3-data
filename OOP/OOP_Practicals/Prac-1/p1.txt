@@ -1,0 +1,5 @@
+Ankit and his friends went out for
+a Pizza party. Ankit’s friend asks him to cover the entire area of the Pizza
+with chilli flakes to have a strong hot taste. Compute the area and perimeter
+of Pizza using java program and print statement, where the diameter of Pizza is
+20 cm.

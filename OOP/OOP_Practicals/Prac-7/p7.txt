@@ -1,0 +1,1 @@
+Ravi and his friends are playing a multiplayer game which requires each player to compute the   area of a shape that is displayed in real time. Thus, overload the function compute() to print the area of different shapes (square, rectangle, circle) using the concept of polymorphism.

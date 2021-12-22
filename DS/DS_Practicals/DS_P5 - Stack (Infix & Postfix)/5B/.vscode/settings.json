@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"*.C": "c",
+		"cctype": "c",
+		"charconv": "c"
+	}
+}

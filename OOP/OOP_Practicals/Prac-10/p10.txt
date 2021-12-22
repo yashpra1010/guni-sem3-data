@@ -1,0 +1,1 @@
+Zahir wants to fill an online admission for of a college, but requires the details of college such as college name and it’s id. Implement a java based program to fetch the details and display them through single inheritance.

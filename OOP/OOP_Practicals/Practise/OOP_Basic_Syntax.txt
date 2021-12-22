@@ -1,0 +1,9 @@
+import java.io.*;				//library file
+
+public class HelloWorld			//creating class
+{
+	public static void main(String[] args‎‎)	//creating main function
+	{
+		System.out.println("Hello World");
+	}
+}

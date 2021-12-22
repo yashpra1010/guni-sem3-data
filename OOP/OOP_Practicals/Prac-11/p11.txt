@@ -1,0 +1,14 @@
+Karan wants to opt for a student
+loan to pursue further +2 years of education abroad. Implement a java program
+which surveys various banks for their rate of interest, and display the
+returned ROI’s through hierarchical inheritance. Consider the ROI of banks are
+as follows:
+
+
+SBI           6.9%
+
+
+HDFC      7.1%
+
+
+BOI          6.5%

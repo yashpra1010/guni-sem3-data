@@ -1,0 +1,97 @@
+Ankit is a 5-year-old kid, who is playing in a boardroom with a basket and bolls. Each boll is having numbered on it like 1, 2, 3…….upto 9. Ankit’s aunt asked him to put all boll inside the basket. Here, the scenario is that basket is long enough to hold all boll but squeezed in width and can hold only one boll at a time. When the next boll is inserted, then that boll can lie on top of the old boll like this way. 
+a). Write a c program to perform the following operation onto the basket:
+•    Push boll numbered as 1 inside the basket 
+•    Push boll numbered as 8 inside the basket
+•    Push boll numbered as 9 inside the basket
+•    Push boll numbered as 7 inside the basket
+•    Push boll numbered as 2 inside the basket
+•    Pop boll from the basket
+•    Pop boll from the basket
+•    Push boll numbered as 3 inside the basket
+ 
+Display the bolls present in the basket/stack.
+
+Solution: -
+
+#include <stdio.h>
+#include <stdlib.h>
+int Top=-1,stack_array[15];
+void PushNum()
+{
+	int x;
+	if(Top==14)
+	{
+		printf("\nOverflow!\n");
+	}
+	else
+	{
+		printf("\nEnter number of ball to be inserted: ");
+		scanf("%d",&x);
+		Top=Top+1;
+		stack_array[Top]=x;
+	}
+}
+
+void PopNum()
+{
+	if(Top==-1)
+	{
+		printf("\nEmpty!\n");
+	}
+	else
+	{
+		printf("\nPopped ball numbered: %d",stack_array[Top]);
+		Top=Top-1;
+	}
+}
+
+void show()
+{
+	if(Top==-1)
+	{
+		printf("\nEmpty!\n");
+	}
+	else
+	{
+		printf("\nBalls in stack array are:\n");
+		for(int i=Top;i>=0;--i)
+		{
+			printf("%d\n",stack_array[i]);
+		}
+	}
+}
+int main()
+{
+	int ch;
+	while(1)
+	{
+	printf("\n(1) PUSH Ball");
+	printf("\n(2) POP Ball");
+	printf("\n(3) Show Stack");
+	printf("\n(4) Exit");
+	printf("\nEnter your choice: ");
+	scanf("%d",&ch);
+	switch(ch)
+	{
+	case 1:
+	PushNum();
+	break;
+	
+	case 2:
+	PopNum();
+	break;
+
+	case 3:
+	show();
+	break;
+		
+	case 4:
+	exit(0);
+
+	default:
+	printf("\nInvalid Choice Entered\n");
+	break;
+	}
+}
+return 0;
+}

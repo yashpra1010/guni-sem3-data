@@ -1,0 +1,1 @@
+A company received a project to develop an employee management system. Neha was assigned to develop a module of taking the user input of employee details such as name, age and salary. Design a program to accept input type in string, integer and double datatype respectively and display the details of the employee.

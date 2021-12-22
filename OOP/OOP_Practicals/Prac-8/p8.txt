@@ -1,0 +1,1 @@
+Aim: Aashka is designing a module for an office management system which will help her colleagues reduce their work by detecting the duplicate values in their data. Design a java program to implement the concept of array and print duplicate values from two arrays, if any.

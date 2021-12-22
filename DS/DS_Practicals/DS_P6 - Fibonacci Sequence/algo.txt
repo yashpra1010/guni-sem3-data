@@ -1,0 +1,18 @@
+void TowerOfHanoi(int n,char A,char B,char C)
+{
+	if(n>0) 
+	{
+		TowerOfHanoi(n-1,A,C,B);
+		printf("\nTop disk moved from %c to %c",A,B);
+		TowerOfHanoi(n-1,C,B,A);
+	}
+}
+
+------------------------------------------------------------------------------------------
+n=3
+-----------------------------------------------------------------------------------------
+TOH(2,A,C,B)
+TOH(1,A,B,C) -->PRINT A TO B
+TOH(2,A,C,B) ---> PRINT A TO C
+
+

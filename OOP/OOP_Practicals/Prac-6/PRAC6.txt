@@ -1,0 +1,1 @@
+A bank management system is being developed which requires taking input of the customer id, customer name of a specific bank. Consider the bank name and account balance as a static variable through Java implementation and display the values. 

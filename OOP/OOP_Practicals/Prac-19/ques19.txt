@@ -1,0 +1,5 @@
+Consider an efficient file handler system designed to write contents and read the same from a file, delete a specific statement based on the condition and it should
+display a message as ‘Deleted’. Incase of null value captured within the file, it should display an exception.
+1. Write a file
+2. Read the file using BufferedReader
+3. if the string read is not null, append content if content equals to a particular word, delete the line and continue
